@@ -1,0 +1,23 @@
+// initized variable and increment both the var each time and display the addition the both the var at the interval of 1 second
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let a=5
+let b=2
+let count=0
+i=setInterval(()=>{document.getElementById("demo").innerHTML=++a + ++b;
+    count++
+    if(count==5){
+        clearInterval(i)
+    }
+ },1000)
+    </script>
+</body>
+</html>

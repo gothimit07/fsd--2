@@ -1,0 +1,5 @@
+fs=require('fs')
+fs.writeFileSync("hello.txt","Good day")
+fs.appendFileSync("hello.txt","\nIs it?")
+fs.copyFileSync("hello.txt","hi1.txt")
+data=fs.readFileSync("hi1.txt","utf-8")

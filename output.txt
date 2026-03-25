@@ -1,0 +1,3 @@
+addtion:35
+sub:10
+mul:1200

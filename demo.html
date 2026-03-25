@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var obj={"name":"abc","age":28}
+        console.log(obj)
+        console.log(obj.name)
+        console.log(obj["age"])
+        console.log("I am "+obj.name+" & my age is "+obj["age"])
+        var a={"name":"Test","age":25,"address":{"city":"Ahmedabad","zip":"380008"},"subject":["FSD2","FCSP2"],"ispass":false,"year":null}
+        console.log(a.age)
+        console.log(a.address)
+        console.log(a["address"]['zip'])
+        console.log(a.subject[0])
+        var objj={"book":[{"id":1,"name":"php","edition":2,"author":["fsd2","abc","pqr"]},{"id":2,"name":"java","edition":3,"author":"Herbet schidi"}]}
+        console.log(objj.book[1]["name"])
+        console.log(objj.book[0]["author"][2])
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

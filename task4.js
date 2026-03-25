@@ -1,0 +1,10 @@
+fs=require('fs')
+j={data:{a:15,b:20,c:[40,30]}}
+obj=JSON.stringify(j)
+fs.writeFileSync("input.txt",obj)
+data1=fs.readFileSync("input.txt","utf-8")
+data2=JSON.parse(data1)
+add=(data2.data.a)+((data2.data.b))
+sub=(data2.data.c[1])-((data2.data.b))
+mul=(data2.data.c[1])*(data2.data.c[0])
+fs.writeFileSync("output.txt","addtion:"+add+"\nsub:"+sub+"\nmul:"+mul)

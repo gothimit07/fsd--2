@@ -1,0 +1,15 @@
+  <p id="demo">Hello</p>
+    <button onclick="fun2()">Click Me</button>
+    <script>
+        size="16"
+        function fun(size){
+            document.getElementById("demo").style.fontSize=size
+        }
+        function fun2(){
+            setInterval(()=>{
+                if(size<=50){
+                    fun(size++)
+                }
+            },50)
+        }
+    </script>

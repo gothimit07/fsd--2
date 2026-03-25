@@ -1,0 +1,8 @@
+var fs=require('fs')
+// fs.mkdirSync("Example")
+fs.writeFileSync("Example/h.txt","data Write")
+fs.appendFileSync("Example/h.txt","Append data")
+var data=fs.readFileSync("Example/h.txt",'utf-8')
+console.log(data)
+fs.unlinkSync("Example/h.txt")
+fs.rmdirSync("Example")

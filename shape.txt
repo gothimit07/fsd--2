@@ -1,0 +1,1 @@
+[{"name":"circle","diameter":8},{"name":"square","side":10}]Peri of circle is:25.12Peri of square is:40
